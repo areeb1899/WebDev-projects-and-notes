@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:100px;
+
+  }
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* apply animation to image */
+  img {
+    animation: slide-in 1s ease-out;
+    transition:transform 0.9s;
+  }
+  img:hover {
+    transform: scale(2);
+  }
+.pokemon {
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    box-shadow:0 5px 10px grey;
+    height:200px;
+    padding:30px;
+    
+}
+
+.img-container {
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+.number {
+    
+    border-radius:40%;
+    margin-left:40px;
+    margin-top:20px;
+    background-color: lightgray;
+}
+
+.type {
+    padding-left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+

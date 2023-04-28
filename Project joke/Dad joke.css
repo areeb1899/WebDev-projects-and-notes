@@ -1,0 +1,57 @@
+body {
+    
+    display: flex;
+
+    margin-top:100px;
+}
+ #main-container {
+    background-color: #686CD4;
+    margin: auto;
+    width: 50%;
+ } 
+
+.container {
+    background-color:white;
+    margin:20px;
+    border-radius: 5px;
+    height:290px;
+    
+}
+
+h3 {
+    color:grey;
+    
+    padding-top:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+
+  }
+  p {
+    font-family: sans-serif; 
+    font-weight:600;
+    /* padding-left:60px; */
+    font-size:large;
+    text-align:center;
+  }
+  #jokeBtn {
+    margin-left: 200px;
+    
+    
+  }
+  
+
+  .btn{
+    background-color: #A36AD9;
+    height:40px;
+    width:130px;
+    border:0;
+    border-radius:5px;
+    color:white;
+    font-size:12px;
+    box-shadow:0 3px 10px black;
+
+    
+  }
+  #joke{
+    padding:20px;
+  }
