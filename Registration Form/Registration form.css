@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  #address{
+    width:200px;
+    height:50px;
+    padding-bottom: 30px;
+    
+
+  }
+ 
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, red,blue,purple);
+    
+
+}
+  
+  .container h1 {
+    color: rgba(255, 255, 255, 0.877);
+    font-size:50px;
+    margin: 20px;
+    font-style:oblique;
+    text-decoration: none;
+  }
+  .container h1:hover {
+    text-decoration: underline;
+  }
+  .registartion-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: #c07d39ab;
+    padding: 30px;
+    border-radius:20px;
+    box-shadow: 0 0 30px rgb(233, 233, 239);
+    
+  }
+  
+  .registartion-form input,
+  .registartion-form select,
+  .registartion-form textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background-color: rgba(231, 241, 241, 0.84);
+  }
+  
+  .registartion-form input:focus,
+  .registartion-form textarea:focus {
+    box-shadow: 3px 3px 10px rgb(154, 23, 23), -3px -3px 10px rgb(224, 224, 224);
+  }
+  
+  .registartion-form .submit {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    color: rgb(34, 43, 33);
+    background-color: rgba(231, 241, 241, 0.84);
+    border-radius: 5px;
+  }
+  
+  .registartion-form .submit:hover {
+    box-shadow: 3px 3px 10px rgba(24, 218, 218, 0.84);
+  }
