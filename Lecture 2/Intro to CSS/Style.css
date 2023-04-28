@@ -1,0 +1,22 @@
+*{
+    border:1px solid black;
+}
+
+
+
+p {
+    color:purple;
+}
+
+#heading {
+    color:blue;
+}
+
+.one {
+
+    color:rgb(86, 156, 16);
+}
+
+a[href="http://google.com"]{
+    color: rgb(34, 151, 11)
+}
