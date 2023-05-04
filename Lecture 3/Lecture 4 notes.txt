@@ -1,0 +1,19 @@
+Font formatting
+font
+posititons
+Display- Inline, block, Inline block, flex, grid
+
+
+Color- green, rgb, rgba- a stands for alpha value basically transparency [0-1]
+
+font-family: 'Courier New', Courier, monospace;
+
+Positions-
+1.Static (default)
+2.Relative
+3.Absolute
+4.Fixed
+5.Sticky
+
+Flex-box-
+Cross axis and Main axis should be applied in parent div.

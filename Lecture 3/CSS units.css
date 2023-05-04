@@ -1,0 +1,16 @@
+ul li{
+    font-size: 2em;
+}
+
+.parent {
+    background-color: aquamarine;
+    height: 70vh;
+    width:30vw;
+}
+
+.child {
+    background-color: rgb(3, 74, 50);
+    height: 30%;
+    width:10%;
+    
+}

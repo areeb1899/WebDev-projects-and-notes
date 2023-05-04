@@ -1,0 +1,42 @@
+
+/* span, div {
+    border:2px solid black;
+}
+
+span {
+    display:inline-block;
+    width:70vw;
+    margin:0 auto;
+    height:6rem;
+}
+div {
+    width:70vw;
+    margin:0 auto;
+    height:6rem;
+} */
+
+.parent{
+    border:2px solid black;
+    /* width:79vw; */
+    background-color: orange;
+    display: flex;
+    /* height:20rem; */
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+    gap:10px;
+    padding:2px;
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-content: center; (used for center content on cross axis ) */
+        
+}
+
+.div {
+    border:2px solid black;
+    width:80px;
+    height:80px;
+    background-color: yellow;
+
+}
